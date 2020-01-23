@@ -1,0 +1,13 @@
+{
+ "argv": [
+  "poetry",
+  "run",
+  "python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python (Poetry)",
+ "language": "python"
+}
