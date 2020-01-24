@@ -1,6 +1,6 @@
 # poetry-kernel
 
-This is a Jupyter kernel that runs Python using [Poetry](https://python-poetry.org). With this kernel, every notebook (or group of notebooks) has its own virtual environment that is automatically created and managed by Poetry. Poetry makes it easy to manage project dependencies in a reproducible manner.
+This is a Jupyter kernel that runs Python notebooks using [Poetry](https://python-poetry.org). With this kernel, every notebook (or group of notebooks) has its own virtual environment that is automatically created and managed by Poetry. Poetry makes it easy to manage project dependencies in a reproducible manner.
 
 This kernel makes it easy to use Poetry and Jupyter together. Without this kernel, you would have to [install a separate kernel](https://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments) for each virtual environment you create, which is more cumbersome.
 
