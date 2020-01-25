@@ -40,7 +40,7 @@ To add project dependencies, run `poetry add <package>` in the project directory
 
 Dependencies are tracked in `<project-directory>/pyproject.toml`. When running the notebook on another machine, first ensure all dependencies are installed by running `poetry install`.
 
-## Specify a non-default path to `poetry`
+### Specify a non-default path to `poetry`
 
 The kernel relies on having the `poetry` program installed in the user's PATH. This should work for most users. If you have `poetry` installed in another location, specify the full path in `kernel.json` after installing the kernel. To see where the kernel is installed, run ```jupyter kernelspec list``` .
 
