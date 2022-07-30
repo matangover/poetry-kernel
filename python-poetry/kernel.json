@@ -1,5 +1,10 @@
 {
  "argv": [
+  "env",
+  "-u",
+  "VIRTUAL_ENV",
+  "-u",
+  "CONDA_PREFIX",
   "poetry",
   "run",
   "python",
